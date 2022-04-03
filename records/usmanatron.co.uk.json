@@ -1,0 +1,6 @@
+{    "a": {
+        "subdomain": "tftest",
+        "type": "A",
+        "target": "8.8.8.8"
+    }
+}
