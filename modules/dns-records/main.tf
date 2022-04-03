@@ -12,7 +12,7 @@ locals {
 }
 
 # Add a record to a sub-domain
-resource "ovh_domain_zone_record" "test" {
+resource "ovh_domain_zone_record" "record" {
     for_each = local.entries
 
     zone = var.zone
